@@ -41,4 +41,5 @@ include ($$PWD/thread/thread.pri)
 include ($$PWD/trigger/trigger.pri)
 
 win32: LIBS += -L$$PWD/lib -lControlCAN
-
+win32: LIBS += -LD:\CetToolLibs\lib \
+               -LD:\CetToolLibs\plugins

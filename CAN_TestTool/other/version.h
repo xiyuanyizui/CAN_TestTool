@@ -1,14 +1,14 @@
 #ifndef VERSION_H
 #define VERSION_H
 
-#define IS_RELEASE_VERSION     (0)
+#define IS_RELEASE_VERSION     (1)
 
 /* 图标 */
 #define PRODUCT_ICON           "favorite.ico"
 
 /* 文件版本 */
-#define FILE_VERSION           1,3,1,192
-#define FILE_VERSION_STR       "1.3.1.192"
+#define FILE_VERSION           1,3,2
+#define FILE_VERSION_STR       "1.3.2"
 
 /* 产品版本 */
 #define PRODUCT_VERSION        FILE_VERSION
@@ -26,7 +26,7 @@
 #define ORIGINAL_FILE_NAME     "CAN_TestTool.exe"
 
 /* 产品名称 */
-#define PRODUCT_NAME           "CetCanTool130"
+#define PRODUCT_NAME           "CAN_TestTool132"
 
 /* 域名 */
 #define ORGANIZATION_DOMAIN    "https://www.cetxiyuan.com/"

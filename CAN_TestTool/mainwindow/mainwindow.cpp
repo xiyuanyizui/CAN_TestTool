@@ -294,6 +294,11 @@ QObject *MainWindow::loadDllPlugin(const QString &dllname)
     QObject *plugin = nullptr;
     QDir pluginsDir("./plugins");
 
+    qDebug() << "pluginsDir.isEmpty()" << pluginsDir.isEmpty();
+    if (pluginsDir.isEmpty()) {
+        pluginsDir.setPath("D:/CetToolLibs/plugins");
+    }
+
     foreach (const QString &fileName, pluginsDir.entryList(QDir::Files)) {
         //qDebug() << "fileName" << fileName << "absoluteFilePath(fileName)" << pluginsDir.absoluteFilePath(fileName);
         QPluginLoader pluginLoader(pluginsDir.absoluteFilePath(fileName));
