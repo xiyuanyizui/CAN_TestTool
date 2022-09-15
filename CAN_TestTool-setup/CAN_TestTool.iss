@@ -2,13 +2,13 @@
 ; 有关创建 Inno Setup 脚本文件的详细资料请查阅帮助文档！
 
 #define MyAppName "CAN Test Tool"
-#define MyAppVersion "1.3.1.192"
+#define MyAppVersion "1.3.2"
 #define MyAppPublisher "cetxiyuan"
 #define MyAppURL "http://www.cetxiyuan.com/"
 #define MyAppExeName "CAN_TestTool.exe"
 #define MyAppIcon  "F:\sharefolder\cetqtlearn\CAN_TestTool\CAN_TestTool-setup\favorite.ico"
 ;注： Release-正式版  Beta-测试版
-#define MyVersionTip "Beta"
+#define MyVersionTip "Release"
 
 [Setup]
 ; 注: AppId的值为单独标识该应用程序。
